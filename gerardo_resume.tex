@@ -1,0 +1,269 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp} % I think the bullet point shapes come from here
+
+\usepackage{tgpagella}% The headerrow command makes a table, this package
+					  % Allows us to change the column seperation distance
+\setlength{\tabcolsep}{0em} % Change the column seperation distance to 0em
+
+\usepackage{enumitem} % Allows changing the spacing between items in a list
+\setlist{nosep} % Change the spacing to zero
+
+\usepackage{endnotes} % Enables the creation of end notes
+\renewcommand{\notesname}{} % Remove the word "Notes" from the end notes
+\let\enotesize\normalsize % Make endnotes the same size as document
+
+\usepackage{fancyhdr} % Used to creat headers and footers
+
+% Create a page style for the first page
+\fancypagestyle{firststyle}
+{
+	\fancyhf{} % clear the header settings
+	\renewcommand{\headrulewidth}{0pt} % Remove the horizontal line
+	\fancyfoot[C]{\normalsize continued} % Add the word "continued" at normal size to the footer
+}
+
+% Create page style for the header of the second page, not currently used
+\fancypagestyle{secondstyle}{
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt} % remove the horizontal line in the header
+	\fancyhead[C]{\LARGE \textbf{Luke Van Hulle} \\
+				\normalsize Resume -- page 2}
+}
+
+% Create a length variable for the table in skills. It is the text width
+% minus the indent
+\newlength{\skillswidth}
+\setlength{\skillswidth}{\textwidth}
+\addtolength{\skillswidth}{-\parindent}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% Create a headerrow command for the header of each skills section
+\newcommand{\headerrow}[3]
+{\vspace{0.4em}
+\noindent
+% To get the three items spaced left, center, right, I had to use this funny
+% \extracolsep stuff. Got it working though.
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} cr}
+	\textbf{#1} & % Title/Postion
+	#2 &		  % Company Name
+	\textbf{#3}\\ % Employment dates
+\end{tabular*}}
+
+% and the actual content starts here
+\begin{document}
+	% Include this so "continue" is printed in the first page footer
+	\thispagestyle{firststyle}
+	
+\begin{center}
+	{\LARGE \textbf{Gerardo Andrés Mazzei Capote}}
+
+	1216 Spring Street\ \ \textbullet
+	\ \ Madison, WI 53715
+	\\
+	(608) 622-4643 \ \textbullet
+	\ \ mazzeicapote@wisc.edu
+\end{center}
+
+\vspace{-1em}
+
+\subsection*{OBJECTIVE}
+	\vspace{-0.5em}
+	\hrule
+	\vspace{0.4em}
+	\begin{indentsection}{\parindent}
+		Full time employment in Mechanical or Manufacturing Engineering\\
+		Strong interest in additive manufacturing technologies
+	\end{indentsection}
+
+
+\subsection*{EDUCATION}
+	\vspace{-0.5em}
+	\hrule
+	\vspace{0.4em}
+	\begin{itemize}
+	\item
+	University of Wisconsin-Madison - \textbf{Master of Science: Mechanical
+	Engineering}, \emph{August 2018}
+	\item
+	Universidad Simón Bolívar, Caracas, Venezuela:
+	\begin{itemize}	
+		\item
+		Bachelor of Science: \textbf{Materials Engineering}, June 2016
+		\item
+		GPA: 3.9375 on a scale of 5.
+	\end{itemize}
+	\end{itemize}
+
+\subsection*{COMPUTER SKILLS}
+	\vspace{-0.5em}
+	\hrule
+	\vspace{0.4em}
+	
+	\begin{indentsection}{\parindent}
+		\begin{tabular*}{\skillswidth}{l @{\extracolsep{\fill}} ll}
+		\textbullet SolidWorks & \textbullet AutoCad & \textbullet Fanuc G-code and Custom Macro-B\\
+		\textbullet Python & \textbullet Java & \textbullet ABB Rapid	
+		\end{tabular*}		
+	\end{indentsection}
+
+\subsection*{RELEVANT EXPERIENCE}
+	\vspace{-0.5em}
+	\hrule
+
+	\headerrow
+		{Graduate Student}
+		{under Dr. Natalie M. Rudolph, UW-Madison}
+		{August 2015 - Present}
+		
+	\begin{itemize}
+		\item Developed a custom Python program%
+		\endnote{GitHub repository for Python tool path program - https://github.com/VanHulleOne/SciSlice}
+		for generation 3D printer tool paths to enable more precise control over printing geometry and parameters
+		\item Integrated an ABB IRB-120 robot with a print head to perform off axis and true 5-axis 3D printing
+		\item Collaborated with polymer experts to increase the strength of 3D printed parts
+		\item Taught Fundamentals of Manufacturing laboratory to undergraduates
+	\end{itemize}
+	
+	\headerrow
+		{Applications Engineer}
+		{OKK USA}
+		{August 2012 - August 2015}
+	\begin{itemize}
+		\item Implemented a variety of turnkey machining and automation solutions for both high-mix/low \\volume and high volume single product lines including automotive OEMs
+		\item Provided customers with on-site 3, 4, and 5 axis CNC operations training
+		\item Produced machine demonstrations and promotional videos%
+		\endnote{OKK machine demonstration and promotional video, IMTS 2014 - https://youtu.be/n5X74Shzais}
+				for trade shows
+		\item Demonstrated a strong ability to troubleshoot complex problems in the field and over the phone
+	\end{itemize}
+	
+	\headerrow
+		{Manufacturing Engineer}
+		{short term contract Tempco Electric Heater Corp}
+		{April 2012 - August 2012}
+	\begin{itemize}
+		\item Upgraded permanent mold maintenance program
+		\item Reduced lead times for cast-in heaters by creating efficient mold changeover procedures
+		\item Performed root cause analysis on manufacturing defects
+	\end{itemize}
+
+	\headerrow
+		{Manufacturing Engineering Intern}
+		{Lexion Medical}
+		{May 2009 - September 2009}
+	\begin{itemize}
+		\item Designed automated equipment to increase in house production volumes
+		\item Fabricated, programmed, and implemented various automated machines
+		\item Provided employee training on new equipment
+		\item Installed, retooled, and performed initial operation of our first plastic extrusion line
+	\end{itemize}
+
+%\pagebreak	
+	\headerrow
+		{Laboratory Supervisor}
+		{UW-Stout Machining and CAM labs}
+		{School Year 2006-2010}
+	\begin{itemize}
+		\item Developed jigs and fixtures for classes and specialty projects
+		\item Trained students on machining equipment and computer software
+		\item Supervised laboratory facilities to maintain a safe working environment
+		\item Produced specialized parts for instructors and laboratory equipment
+	\end{itemize}
+	
+\pagebreak % Make sure the first page ends here
+\thispagestyle{empty} % clear the style so "continue" isn't printed
+
+% Header for the second page. This could be in the header but
+% I didn't think that looked good and didn't need the space.
+\begin{center}
+	\LARGE \textbf{Luke Van Hulle} \\
+	\normalsize Resume -- page 2
+\end{center}
+
+\subsection*{OTHER EXPERIENCE}
+
+	\vspace{-0.5em}
+	\hrule
+	
+	\headerrow
+		{Air Transportation Specialist}
+		{Raytheon Polar Services, \textbf{Antarctica}}
+		{Oct-Feb 2010 - 2011}
+	\begin{itemize}
+		\item Operated a variety of heavy equipment to load/unload aircraft and transport cargo
+		\item Assisted team members in safely and efficiently palletizing cargo
+		\item Maintained a positive attitude while working in harsh environmental conditions
+	\end{itemize}
+	
+	\headerrow
+		{Machinist}
+		{Advance Industrial Machine}
+		{May 2010 - September 2010}
+	\begin{itemize}
+		\item Programmed and operated Mazak mills and lathes
+		\item Manufactured custom and short run parts from a variety of materials
+	\end{itemize}
+	
+	\headerrow
+		{Treasurer/Secretary}
+		{American Foundry Society UW-Stout Student Chapter}
+		{2008-2010}
+	\begin{itemize}
+		\item Designed patterns and core boxes to produce castings for other organizations
+		\item Researched materials and heat treating schedules to enhance mechanical properties
+	\end{itemize}
+	
+	\headerrow
+		{Assistant Foreman}
+		{Outagamie Co. Highway Department}
+		{Summers 2005-2008}
+	\begin{itemize}
+		\item Coordinated labor and equipment for several multimillion dollar projects
+		\item Negotiated with customers to maintain positive relationships with the highway department
+		\item Communicated with sub-contractors to keep everyone informed of their duties
+		\item Consulted with independent inspectors to maintain quality workmanship
+	\end{itemize}
+	
+\subsection*{PROFESSIONAL MEMBERSHIPS}
+	\vspace{-0.5em}
+	\hrule
+	\vspace{0.8em}
+	\begin{itemize}
+		\item Society of Plastics Engineers (SPE)
+		\item Society of Manufacturing Engineers
+		\item American Foundry Society Student Chapter (AFS) \textbf{Treasurer/Secretary}
+		\item Technology Education Collegiate Association (TECA) \textbf{President}
+		\item \textbf{Eagle Scout}, Boy Scouts of America
+	\end{itemize}
+	
+\subsection*{LINKS}
+	\vspace{-0.5em}
+	\hrule
+	\vspace{-0.6em}
+	
+	\renewcommand{\theendnote}{ } % remove the superscript from this end note
+	% Add an end not without a number
+	\endnotetext{\thinspace LinkedIn profile - www.linkedin.com/in/luke-van-hulle}
+	% Actually print the end notes
+	\theendnotes
+	
+\end{document}
