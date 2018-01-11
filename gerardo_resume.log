@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.10)  4 OCT 2017 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.10)  11 JAN 2018 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,7 +664,7 @@ resume.ent)
 Here is how much of TeX's memory you used:
  2663 strings out of 493013
  35466 string characters out of 6137008
- 99845 words of memory out of 5000000
+ 98845 words of memory out of 5000000
  6187 multiletter control sequences out of 15000+600000
  36386 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -674,7 +674,7 @@ e/q-ec.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/t
 exlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb><c:/texlive/2016/te
 xmf-dist/fonts/type1/public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts
 /type1/public/tex-gyre/qplri.pfb>
-Output written on gerardo_resume.pdf (3 pages, 91142 bytes).
+Output written on gerardo_resume.pdf (3 pages, 91324 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
