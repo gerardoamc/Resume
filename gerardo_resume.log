@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.10)  11 JAN 2018 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.10)  11 JAN 2018 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,29 +654,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 128.
-\openout3 = `gerardo_resume.ent'.
-
  [1
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./gerardo_
-resume.ent)
-[3] (./gerardo_resume.aux) ) 
+resume.aux) ) 
 Here is how much of TeX's memory you used:
- 2663 strings out of 493013
- 35466 string characters out of 6137008
+ 2660 strings out of 493013
+ 35425 string characters out of 6137008
  98845 words of memory out of 5000000
- 6187 multiletter control sequences out of 15000+600000
- 36386 words of font info for 35 fonts, out of 8000000 for 9000
+ 6186 multiletter control sequences out of 15000+600000
+ 28075 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,43p,335b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyr
-e/q-ec.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/t
-exlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb><c:/texlive/2016/te
-xmf-dist/fonts/type1/public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts
-/type1/public/tex-gyre/qplri.pfb>
-Output written on gerardo_resume.pdf (3 pages, 91324 bytes).
+ 37i,10n,44p,335b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:
+/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2016/tex
+mf-dist/fonts/type1/public/tex-gyre/qplb.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/t
+ex-gyre/qplri.pfb>
+Output written on gerardo_resume.pdf (2 pages, 93393 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
