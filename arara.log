@@ -1,0 +1,5 @@
+05 Feb 2018 11:07:08.799 INFO  Arara - Welcome to arara!
+05 Feb 2018 11:07:08.802 INFO  Arara - Processing file 'gerardo_resume.tex', please wait.
+05 Feb 2018 11:07:08.804 INFO  DirectiveExtractor - Reading directives from gerardo_resume.tex.
+05 Feb 2018 11:07:08.811 INFO  Arara - No directives found in 'gerardo_resume.tex'.
+05 Feb 2018 11:07:08.811 INFO  Arara - Done.
