@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.10)  17 SEP 2018 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.10)  26 NOV 2018 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -656,22 +656,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 131.
  [1
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./gerardo_
-resume.aux) ) 
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout3 = `gerardo_resume.ent'.
+
+ (./gerardo_resume.ent) [2]
+(./gerardo_resume.aux) ) 
 Here is how much of TeX's memory you used:
- 2660 strings out of 493013
- 35425 string characters out of 6137008
+ 2666 strings out of 493013
+ 35509 string characters out of 6137008
  98845 words of memory out of 5000000
- 6186 multiletter control sequences out of 15000+600000
- 28075 words of font info for 33 fonts, out of 8000000 for 9000
+ 6189 multiletter control sequences out of 15000+600000
+ 36784 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,44p,335b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:
-/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2016/tex
-mf-dist/fonts/type1/public/tex-gyre/qplb.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/t
-ex-gyre/qplri.pfb>
-Output written on gerardo_resume.pdf (2 pages, 92190 bytes).
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-
+ts1.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texli
+ve/2016/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts/typ
+e1/public/tex-gyre/qplri.pfb>
+Output written on gerardo_resume.pdf (2 pages, 92295 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
