@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{MazzeiJCompSci}
+G.~A. {Mazzei Capote}, A.~Redmann, and T.~A. Osswald, ``{Validating a Failure
+  Surface Developed for ABS Fused Filament Fabrication Parts through Complex
+  Loading Experiments},'' {\em Journal of Composites Science}, vol.~3, no.~2,
+  2019.
+
+\bibitem{MazzeiCapote2019}
+G.~A. {Mazzei Capote}, N.~M. Rudolph, P.~V. Osswald, and T.~A. Osswald,
+  ``{Failure surface development for ABS fused filament fabrication parts},''
+  {\em Additive Manufacturing}, vol.~28, no.~April, pp.~169--175, 2019.
+
+\bibitem{MazzeiCapote2018}
+G.~A. {Mazzei Capote}, {\em {Defining a failure surface for Fused Filament
+  Fabrication parts using a novel failure criterion}}.
+\newblock Master thesis, University of Wisconsin- Madison, Madison, WI, 2018.
+
+\bibitem{MazzeiCapote2017}
+G.~A. {Mazzei Capote}, A.~Redmann, C.~Koch, and N.~Rudolph, ``{Towards a Robust
+  Production of FFF End-User Parts with Improved Tensile Properties},'' in {\em
+  Proceedings of the 28th Annual International Solid Freeform Fabrication
+  Symposium – An Additive Manufacturing Conference}, (Austin, TX),
+  pp.~507--518, 2017.
+
+\end{thebibliography}

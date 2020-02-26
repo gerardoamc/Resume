@@ -68,6 +68,9 @@
 	\textbf{#3}\\ % Employment dates
 \end{tabular*}}
 
+\usepackage{bibentry}
+\nobibliography*
+
 % and the actual content starts here
 \begin{document}
 	% Include this so "continue" is printed in the first page footer
@@ -101,12 +104,12 @@
 	\vspace{0.4em}
 	\begin{itemize}
 	\item
-	\textbf{University of Wisconsin-Madison} - \emph{Madison, WI, U.S.A} - ongoing
+	\textbf{University of Wisconsin-Madison} - \emph{Madison, WI, U.S.A}
 	\begin{itemize}	
 	\item
-	\textbf{PhD}: Mechanical Engineering. 
+	\textbf{PhD}: Mechanical Engineering (ongoing). 
 	\item
-	\textbf{MSc}: Mechanical Engineering.
+	\textbf{MSc}: Mechanical Engineering (2018). 
 	%\item
 	%GPA: 3.813 / 4.
 \end{itemize}
@@ -115,7 +118,7 @@
 	\textbf{Universidad Simón Bolívar}- \emph{Caracas, Venezuela}
 	\begin{itemize}	
 		\item
-		\textbf{Bachelor of Science}: Materials Engineering. 
+		\textbf{Bachelor of Science}: Materials Engineering (2016). 
 		%\item
 		%GPA: 3.9375 / 5.
 	\end{itemize}
@@ -194,35 +197,44 @@
 	\normalsize Resume -- page 2
 \end{center}
 
-\subsection*{PUBLICATIONS AND PRESENTATIONS}
+\subsection*{RECENT PRESENTATIONS}
 
 	\vspace{-0.5em}
 	\hrule
-	
 	\headerrow
-		{SPE ANTEC}
-		{Anaheim, CA}
-		{2017}
+		{AMUG}
+		{Chicago, IL}
+		{2019}
 	\begin{itemize}
-		\item \emph{Extrudate Mass Flow Rate Analysis in Fused Filament Fabrication (FFF): A Cursory Investigation of the Effects of Printer Parameters}. Co-author.
+		\item \emph{A novel failure criterion applied for Fused Filament Fabrication parts}.
 	\end{itemize}
-	
+
 	\headerrow
-		{SFF 2017}
+		{RAPID+TCT}{Fort Worth, TX}{2018}
+	\begin{itemize}
+		\item \emph{A Tensor Based Failure Criterion for FFF Manufactured Parts}.
+	\end{itemize}
+
+	\headerrow
+		{SFF}
 		{Austin, TX}
 		{2017}
 	\begin{itemize}
-		\item \emph{Towards a Robust Production of FFF End-User Parts with Improved Tensile Properties}. Principal author and presenter.
-	\end{itemize}
-	
-	\headerrow
-		{SPE ANTEC}
-		{Indianapolis, IN}
-		{2016}
-	\begin{itemize}
-		\item \emph{Optimization of the FDM™ Additive Manufacturing Process}. Co-author.
+		\item \emph{Towards a Robust Production of FFF End-User Parts with Improved Tensile Properties}. 
 	\end{itemize}
 
+%\subsection*{PUBLICATIONS}
+	%\vspace{-0.5em}
+	%\hrule
+%	\vspace{0.6em}
+%	\begin{itemize}
+%	\item \bibentry{MazzeiJCompSci}
+	%\item \bibentry{MazzeiCapote2019}
+	%\item \bibentry{MazzeiCapote2018}
+	%\item \bibentry{MazzeiCapote2017}
+	%\end{itemize}
+
+	
 \subsection*{ADDITIONAL INFORMATION}
 	\vspace{-0.5em}
 	\hrule
@@ -244,5 +256,8 @@
 	\endnotetext{\thinspace LinkedIn profile - https://www.linkedin.com/in/gerardo-mazzei-capote-396413b3}
 	% Actually print the end notes
 	\theendnotes
+\renewcommand\refname{PUBLICATIONS}
+\bibliographystyle{ieeetr}	
+\bibliography{library}
 	
 \end{document}
