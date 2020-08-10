@@ -1,26 +1,208 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{MazzeiJCompSci}
-G.~A. {Mazzei Capote}, A.~Redmann, and T.~A. Osswald, ``{Validating a Failure
-  Surface Developed for ABS Fused Filament Fabrication Parts through Complex
-  Loading Experiments},'' {\em Journal of Composites Science}, vol.~3, no.~2,
-  2019.
+\datalist[entry]{none/global//global/global}
+  \entry{MazzeiCapote2017}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Redmann},
+         familyi={R\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Koch},
+         familyi={K\bibinitperiod},
+         given={Carsten},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Rudolph},
+         familyi={R\bibinitperiod},
+         given={Natalie},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{3d printing,fff,tensile properties}
+    \strng{namehash}{MGA+1}
+    \strng{fullhash}{MGARAKCRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The relatively low cost of Fused Filament Fabrication (FFF) printers and
+  wide variety of materials -spanning multiple functionalities and prices- make
+  this process interesting for production of functional parts. However, FFF
+  produced objects underperform in terms of mechanical properties when compared
+  to injection molding. Therefore, a study of tensile properties of FFF
+  produced parts was conducted according to the ASTM D-638 standard, using a
+  commercial and an in-house produced ABS filament. Initial tests using
+  commercial ABS revealed poor reproducibility of results, which were analyzed
+  in detail in this study. This led to designing a formal bed levelling
+  procedure for the printer, evaluating effects of printer configuration and
+  material quality as well as exploring modifications to the ASTM test
+  procedure. As a result, test specimens with properties close to injection
+  molding parts were produced. Therefore, the different impact factors will be
+  discussed and the new procedures will be presented.%
+    }
+    \field{booktitle}{Proceedings of the 28th Annual International Solid
+  Freeform Fabrication Symposium – An Additive Manufacturing Conference}
+    \field{pages}{507\bibrangedash 518}
+    \field{title}{{Towards a Robust Production of FFF End-User Parts with
+  Improved Tensile Properties}}
+    \list{location}{1}{%
+      {Austin, TX}%
+    }
+    \field{year}{2017}
+  \endentry
 
-\bibitem{MazzeiCapote2019}
-G.~A. {Mazzei Capote}, N.~M. Rudolph, P.~V. Osswald, and T.~A. Osswald,
-  ``{Failure surface development for ABS fused filament fabrication parts},''
-  {\em Additive Manufacturing}, vol.~28, no.~April, pp.~169--175, 2019.
+  \entry{MazzeiCapote2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RNM}{%
+         family={Rudolph},
+         familyi={R\bibinitperiod},
+         given={Natalie\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=OPV}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={Paul\bibnamedelima V.},
+         giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=OTA}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={Tim\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{FFF,Failure criterion,Mechanical testing,Off-axis printing}
+    \strng{namehash}{MGA+1}
+    \strng{fullhash}{MGARNMOPVOTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Fused Filament Fabrication (FFF)is the most widely available Additive
+  Manufacturing technology. Offering the possibility of producing complex
+  geometries in a compressed product development cycle and in a plethora of
+  materials, it comes as no surprise that FFF is attractive to multiple
+  industries, including the automotive and aerospace segments. However, the
+  high anisotropy of parts developed throu0gh this technique implies that
+  failure prediction is extremely difficult -a requirement that must be
+  satisfied to guarantee the safety of the final user. This work applies a
+  criterion that incorporates stress interactions to define a 3D failure
+  envelope that could prove an invaluable tool in formalizing the embrace of
+  FFF in industry. Tensile, compressive and torsion tests were executed on
+  coupons developed in a traditional FFF printer, as well as a customized,
+  6-axis robotic printer necessary to produce specimens in out of ordinary
+  orientations. These tests were used to calculate the parameters of the
+  mathematical function that describe the failure envelope. Mechanical tests
+  clearly showed significant difference between tensile, compressive and shear
+  strengths. The calculated envelope shows strong interactions between axial
+  loads, and a considerable interaction between shear stresses and loads
+  applied in directions parallel and perpendicular to the beads.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.addma.2019.05.005
+    \endverb
+    \field{issn}{22148604}
+    \field{number}{April}
+    \field{pages}{169\bibrangedash 175}
+    \field{title}{{Failure surface development for ABS fused filament
+  fabrication parts}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.addma.2019.05.005
+    \endverb
+    \field{volume}{28}
+    \field{journaltitle}{Additive Manufacturing}
+    \field{year}{2019}
+  \endentry
 
-\bibitem{MazzeiCapote2018}
-G.~A. {Mazzei Capote}, {\em {Defining a failure surface for Fused Filament
-  Fabrication parts using a novel failure criterion}}.
-\newblock Master thesis, University of Wisconsin- Madison, Madison, WI, 2018.
-
-\bibitem{MazzeiCapote2017}
-G.~A. {Mazzei Capote}, A.~Redmann, C.~Koch, and N.~Rudolph, ``{Towards a Robust
-  Production of FFF End-User Parts with Improved Tensile Properties},'' in {\em
-  Proceedings of the 28th Annual International Solid Freeform Fabrication
-  Symposium – An Additive Manufacturing Conference}, (Austin, TX),
-  pp.~507--518, 2017.
-
-\end{thebibliography}
+  \entry{MazzeiJCompSci}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Redmann},
+         familyi={R\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OTA}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={Tim\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{FFF,Failure criterion,Mechanical testing}
+    \strng{namehash}{MGARAOTA1}
+    \strng{fullhash}{MGARAOTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Fused Filament Fabrication (FFF) is arguably the most widely available
+  additive manufacturing technology at the moment. Offering the possibility of
+  producing complex geometries in a compressed product development cycle and in
+  a plethora of materials, it has gradually started to become attractive to
+  multiple industrial segments, slowly being implemented in diverse
+  applications. However, the high anisotropy of parts developed through this
+  technique renders failure prediction difficult. The proper performance of the
+  part, or even the safety of the final user, cannot be guaranteed under
+  demanding mechanical requirements. This problem can be tackled through the
+  development of a failure envelope that allows engineers to predict failure by
+  using the knowledge of the stress state of the part. Previous research by the
+  authors developed a failure envelope for acrylonitrile butadiene styrene
+  (ABS) based, Fused Filament Fabrication (FFF) parts by use of a criterion
+  that incorporates stress interactions. This work validates the first quadrant
+  of the envelope by performing uniaxial tensile tests with coupons produced
+  with a variety of raster angles, creating a combined loading stress state in
+  the localized coordinate system. Results show the safe zone encompassed by
+  the failure envelope proved adequate.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.3390/jcs3020049
+    \endverb
+    \field{number}{2}
+    \field{title}{{Validating a Failure Surface Developed for ABS Fused
+  Filament Fabrication Parts through Complex Loading Experiments}}
+    \field{volume}{3}
+    \field{journaltitle}{Journal of Composites Science}
+    \field{year}{2019}
+  \endentry
+\enddatalist
+\endinput

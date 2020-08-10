@@ -2,7 +2,21 @@
 \usepackage[letterpaper,margin=0.75in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{hyperref}
+%Hyperref format
+\hypersetup{
+	colorlinks=true,	% Hyperlinks are colored
+	linkcolor=blue,		% Color of internal links (within document)
+	citecolor=blue,	    % Color of internal links to the Reference page (within document)
+	urlcolor=blue,		% Color of URLs (external) - default is magenta.
+	pdftitle = {Predicting mechanical properties of FFF parts1},
+	pdfsubject = {Prelim 2020},
+	pdfauthor = {Gerardo A. Mazzei Capote},
+	pdfkeywords = { },	
+}
 \usepackage{textcomp} % I think the bullet point shapes come from here
+\usepackage[backend=bibtex, sorting=none,maxbibnames=99]{biblatex} %References are numbered per order of use in the text as opposed to alphabetically (default)
+\addbibresource{BibTex/mypapers.bib}
 
 \usepackage{tgpagella}% The headerrow command makes a table, this package
 					  % Allows us to change the column seperation distance
@@ -68,13 +82,15 @@
 	\textbf{#3}\\ % Employment dates
 \end{tabular*}}
 
-\usepackage{bibentry}
-\nobibliography*
+%\usepackage{bibentry}
+%\nobibliography*
 
 % and the actual content starts here
 \begin{document}
 	% Include this so "continue" is printed in the first page footer
 	\thispagestyle{firststyle}
+
+% SECOND PAGE
 	
 \begin{center}
 	{\LARGE \textbf{Gerardo Andrés Mazzei Capote}}
@@ -83,7 +99,9 @@
 	\ \ Madison, WI- 53715
 	\\
 	(608) 622-4643 \ \textbullet
-	\ \ mazzeicapote@wisc.edu
+	\ \ mazzeicapote@wisc.edu\\
+	\href{https://www.linkedin.com/in/gerardo-mazzei-capote-396413b3}{linkedin.com/in/gerardo-mazzei-capote-396413b3}
+	
 \end{center}
 
 \vspace{-1em}
@@ -115,7 +133,7 @@
 \end{itemize}
 
 	\item
-	\textbf{Universidad Simón Bolívar}- \emph{Caracas, Venezuela}
+	\textbf{Universidad Simón Bolívar} - \emph{Caracas, Venezuela}
 	\begin{itemize}	
 		\item
 		\textbf{Bachelor of Science}: Materials Engineering (2016). 
@@ -129,39 +147,28 @@
 	\hrule
 
 	\headerrow
-		{Graduate Student}
+		{PhD Candidate}
 		{under Prof. Tim Osswald, UW-Madison}
 		{August 2016 - Present}
 		
 	\begin{itemize}
 		\item Extruded a customized ABS filament with tight dimensional tolerances to achieve high precision volumetric output during 3D printing.  
-		\item Used a 6-axis robotic printer to produce and test FFF coupons with unusual bead orientations.
-		\item Added custom geometries to "SciSlice"- an open source, research focused slicing engine.
-		%\endnote{GitHub repository for Python tool path program - https://github.com/VanHulleOne/SciSlice}
-		\item Used a novel criterion to develop a failure surface for FFF parts. 
-		\item Taught "ME370- Energy Systems Laboratory" to senior undergraduate students.
-		\item Manager of the Additive Manufacturing Laboratory of the Polymer Engineering Center since August 2017. 
+		\item Predicted part failure of 3D printed parts using a novel failure criterion.
+		\item Developed and produced 3D printed coupons with unusual bead orientations using a customized 6-axis robotic printer.
+		\item Worked closely with a company to develop a 3D printer with in-line sensors that allow capturing processing parameter data in real time.
 	\end{itemize}
 
 \subsection*{SKILLS}
 \vspace{-0.5em}
 \hrule
 \vspace{0.4em}
-\textbf{Languages}:
-\begin{indentsection}{\parindent}
-	\begin{tabular*}{\skillswidth}{l @{\extracolsep{\fill}} ll}
-		\textbullet Spanish: \emph{Native language} & \textbullet  Portuguese and English: \emph{Advanced, near-native level}
-	\end{tabular*}		
-\end{indentsection}
-\vspace{0.4em}
-\textbf{Computer skills}:
-\begin{indentsection}{\parindent}
-	\begin{tabular*}{\skillswidth}{l @{\extracolsep{\fill}} ll}
-		\textbullet Solidworks - \emph{Proficient}  & \textbullet  MATLAB - \emph{Proficient} & \textbullet Rep-Rap G-code - \emph{Proficient}\\
-		\textbullet EES - \emph{Intermediate} & \textbullet Microsoft Office - \emph{Intermediate} & \textbullet Adobe Animate - \emph{Intermediate}\\ 
-		\textbullet Origin - \emph{Intermediate} & \textbullet R - \emph{Basic} & \textbullet AutoCAD - \emph{Basic} 
-	\end{tabular*}		
-\end{indentsection}	
+
+\textbf{Polymer processing techniques}: Extrusion, Injection Molding\\
+\textbf{Analysis techniques}: TGA, DSC, LFA, DMA, $\mu$CT\\
+\textbf{Programming languages}: MATLAB, Python, R, RAPID, G-code\\
+\textbf{Engineering software}: Solidworks, EES, Origin, Jupyter Notebooks\\
+\textbf{Other software}: Microsoft Office Suite, Adobe Animate\\
+\textbf{Languages}: English, Spanish, Portuguese\\
 
 
 \subsection*{OTHER EXPERIENCE}
@@ -170,22 +177,16 @@
 \hrule
 	
 	\headerrow
-		{Chemistry Tutor}
-		{Grupo Escalera, Universidad Simón Bolívar} %\endnote{Grupo Escalera webpage - http://grupoescalera.com.ve/}
-		{August 2012 - August 2013}
-	\begin{itemize}
-		\item Taught inorganic and organic chemistry to senior high school students aiming to apply to higher education studies in a venezuelan institution.
-\end{itemize}	
+		{Teaching Assistant}
+		{University of Wisconsin-Madison} 
+		{August 2017 - Present}
+		Responsible for teaching and grading duties for `ME370 - Energy Systems Lab`, `ME514 - Additive Manufacturing`, and `ME418 - Engineering Design with Polymers`, all offered by the Mechanical Engineering Department. 
+	
 	\headerrow
-		{President}
-		{Asociación de Estudiantes de Ingeniería de Materiales- USB} %\endnote{AEIM webpage - http://aeim.grupos.usb.ve/node/1}
-		{September 2014- July 2015}
-		\begin{itemize}
-			\item Organized the event "V Convención Ingeniería de Materiales" where industry partners and experts presented on current topics related to Materials Engineering.
-			\item Organized multiple events aimed at obtaining sponsorships or funding for the student organization.
-			\item Organized industry visits where students could see manufacturing processes at work. 
-			\item Excelled at delegating and working with a team of like-minded individuals.
-	\end{itemize}
+		{Vice President}
+		{Society of Plastic Engineers - Madison Chapter} 
+		{August 2018- May 2020}
+		Coordinated industry visits and outreach activities aimed at increasing the interest of engineering students in the field of polymer processing.
 	
 \pagebreak % Make sure the first page ends here
 \thispagestyle{empty} % clear the style so "continue" isn't printed
@@ -197,7 +198,7 @@
 	\normalsize Resume -- page 2
 \end{center}
 
-\subsection*{RECENT PRESENTATIONS}
+\subsection*{TECHNICAL PRESENTATIONS}
 
 	\vspace{-0.5em}
 	\hrule
@@ -223,41 +224,26 @@
 		\item \emph{Towards a Robust Production of FFF End-User Parts with Improved Tensile Properties}. 
 	\end{itemize}
 
-%\subsection*{PUBLICATIONS}
-	%\vspace{-0.5em}
-	%\hrule
-%	\vspace{0.6em}
-%	\begin{itemize}
-%	\item \bibentry{MazzeiJCompSci}
-	%\item \bibentry{MazzeiCapote2019}
-	%\item \bibentry{MazzeiCapote2018}
-	%\item \bibentry{MazzeiCapote2017}
-	%\end{itemize}
+\subsection*{PUBLICATIONS}
+	\vspace{-0.5em}
+	\hrule
+	\vspace{0.6em}
 
+\begin{enumerate}
+	\item \fullcite{MazzeiCapote2017}
+	\item \fullcite{MazzeiCapote2019}
+	\item \fullcite{MazzeiJCompSci}
+\end{enumerate}
 	
 \subsection*{ADDITIONAL INFORMATION}
 	\vspace{-0.5em}
 	\hrule
 	\vspace{0.8em}
 	\begin{itemize}
-		\item Society of Plastics Engineers (SPE) member.
 		\item Exchange student through the Rotary Youth Exchange Program (August 2008 to June 2009).
 		\item Venezuelan and Italian citizenship.
 		\item Holder of Brazilian permanent resident visa.
 	\end{itemize}
 	
-\subsection*{LINKS}
-	\vspace{-0.5em}
-	\hrule
-	\vspace{-0.6em}
-	
-	\renewcommand{\theendnote}{ } % remove the superscript from this end note
-	% Add an end note without a number
-	\endnotetext{\thinspace LinkedIn profile - https://www.linkedin.com/in/gerardo-mazzei-capote-396413b3}
-	% Actually print the end notes
-	\theendnotes
-\renewcommand\refname{PUBLICATIONS}
-\bibliographystyle{ieeetr}	
-\bibliography{library}
 	
 \end{document}

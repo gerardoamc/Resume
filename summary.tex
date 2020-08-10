@@ -1,0 +1,96 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+%Hyperref format
+\hypersetup{
+	colorlinks=true,	% Hyperlinks are colored
+	linkcolor=blue,		% Color of internal links (within document)
+	citecolor=blue,	    % Color of internal links to the Reference page (within document)
+	urlcolor=blue,		% Color of URLs (external) - default is magenta.
+	pdftitle = {Predicting mechanical properties of FFF parts1},
+	pdfsubject = {Prelim 2020},
+	pdfauthor = {Gerardo A. Mazzei Capote},
+	pdfkeywords = { },	
+}
+\usepackage{textcomp} % I think the bullet point shapes come from here
+\usepackage[backend=bibtex, sorting=none,maxbibnames=99]{biblatex} %References are numbered per order of use in the text as opposed to alphabetically (default)
+\addbibresource{BibTex/mypapers.bib}
+
+\usepackage{tgpagella}% The headerrow command makes a table, this package
+					  % Allows us to change the column seperation distance
+\setlength{\tabcolsep}{0em} % Change the column seperation distance to 0em
+
+\usepackage{enumitem} % Allows changing the spacing between items in a list
+\setlist{nosep} % Change the spacing to zero
+
+\usepackage{endnotes} % Enables the creation of end notes
+\renewcommand{\notesname}{} % Remove the word "Notes" from the end notes
+\let\enotesize\normalsize % Make endnotes the same size as document
+
+
+% Create a length variable for the table in skills. It is the text width
+% minus the indent
+\newlength{\skillswidth}
+\setlength{\skillswidth}{\textwidth}
+\addtolength{\skillswidth}{-\parindent}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% Create a headerrow command for the header of each skills section
+\newcommand{\headerrow}[3]
+{\vspace{0.4em}
+\noindent
+% To get the three items spaced left, center, right, I had to use this funny
+% \extracolsep stuff. Got it working though.
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} cr}
+	\textbf{#1} & % Title/Postion
+	#2 &		  % Company Name
+	\textbf{#3}\\ % Employment dates
+\end{tabular*}}
+
+%\usepackage{bibentry}
+%\nobibliography*
+
+% and the actual content starts here
+\begin{document}
+
+
+\begin{center}
+	{\LARGE \textbf{Gerardo Andrés Mazzei Capote}}
+
+	45 N. Randall Ave, Apt. 109\ \ \textbullet
+	\ \ Madison, WI- 53715
+	\\
+	(608) 622-4643 \ \textbullet
+	\ \ mazzeicapote@wisc.edu\\
+	\href{https://www.linkedin.com/in/gerardo-mazzei-capote-396413b3}{linkedin.com/in/gerardo-mazzei-capote-396413b3}
+	
+\end{center}
+\vspace{-0.5em}
+\hrule
+\vspace{0.4em}
+\vspace{-1em}
+
+\section*{RESEARCH SUMMARY}
+
+Fused Filament Fabrication (FFF) is arguably the most widely available Additive Manufacturing technology at the moment. Offering the possibility of producing complex geometries in a compressed product development cycle and in a plethora of materials, it comes as no surprise that FFF is attractive to multiple industries, including the automotive and aerospace segments. However, the high anisotropy of parts developed through this technique imply that part failure prediction is extremely difficult \textemdash a requirement that must be satisfied to guarantee the safety of the final user. Application of a Failure Criterion to predict part failure has been shown to constitute a solution to this problem. However, specialized printing equipment, and a large number of mechanical tests performed under a variety of loading conditions are required to populate the parameters of the failure function - a process that is extremely time consuming and can prove unfeasible if off-axis printing solutions are not available to the user. This research proposal describes a method by which certain mechanical properties of an FFF part can be predicted using machine learning methods. Data extracted from an FFF printer fitted with in-line sensors that capture extrusion force and velocity, as well as additional data stemming from $\mu$CT scans, dimensional changes in the filament geometry, and mechanical tests can be used to train a machine learning system that can predict the expected mechanical performance of an FFF part under certain loading conditions. This resource can significantly reduce the time required to produce a failure envelope for FFF parts, as well as allowing a better comprehension of the relationship between process variables and final mechanical properties. Additionally, such resources clear the path for development of intelligent equipment that can detect flaws mid-print and auto-correct based on the expected performance of the part. 
+
+
+\end{document}
