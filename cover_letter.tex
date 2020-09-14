@@ -1,0 +1,111 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+%Hyperref format
+\hypersetup{
+	colorlinks=true,	% Hyperlinks are colored
+	linkcolor=blue,		% Color of internal links (within document)
+	citecolor=blue,	    % Color of internal links to the Reference page (within document)
+	urlcolor=blue,		% Color of URLs (external) - default is magenta.
+	pdftitle = {cover_letter},
+	pdfsubject = {9TLabs},
+	pdfauthor = {Gerardo A. Mazzei Capote},
+	pdfkeywords = { },	
+}
+\usepackage{textcomp} % I think the bullet point shapes come from here
+\usepackage[backend=bibtex, sorting=none,maxbibnames=99]{biblatex} %References are numbered per order of use in the text as opposed to alphabetically (default)
+\addbibresource{BibTex/mypapers.bib}
+
+\usepackage{tgpagella}% The headerrow command makes a table, this package
+					  % Allows us to change the column seperation distance
+\setlength{\tabcolsep}{0em} % Change the column seperation distance to 0em
+
+\usepackage{enumitem} % Allows changing the spacing between items in a list
+\setlist{nosep} % Change the spacing to zero
+
+\usepackage{endnotes} % Enables the creation of end notes
+\renewcommand{\notesname}{} % Remove the word "Notes" from the end notes
+\let\enotesize\normalsize % Make endnotes the same size as document
+
+
+% Create a length variable for the table in skills. It is the text width
+% minus the indent
+\newlength{\skillswidth}
+\setlength{\skillswidth}{\textwidth}
+\addtolength{\skillswidth}{-\parindent}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% Create a headerrow command for the header of each skills section
+\newcommand{\headerrow}[3]
+{\vspace{0.4em}
+\noindent
+% To get the three items spaced left, center, right, I had to use this funny
+% \extracolsep stuff. Got it working though.
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} cr}
+	\textbf{#1} & % Title/Postion
+	#2 &		  % Company Name
+	\textbf{#3}\\ % Employment dates
+\end{tabular*}}
+
+%\usepackage{bibentry}
+%\nobibliography*
+
+% and the actual content starts here
+\begin{document}
+
+
+\begin{center}
+	{\LARGE \textbf{Gerardo Andrés Mazzei Capote}}
+
+	45 N. Randall Ave, Apt. 109\ \ \textbullet
+	\ \ Madison, WI- 53715, U.S.A.
+	\\
+	(608) 622-4643 \ \textbullet
+	\ \ mazzeicapote@wisc.edu\\
+	\href{https://www.linkedin.com/in/gerardo-mazzei-capote}{linkedin.com/in/gerardo-mazzei-capote}
+	
+\end{center}
+\vspace{-0.5em}
+\hrule
+\vspace{0.4em}
+\vspace{-1em}
+
+\section*{COVER LETTER}
+
+To the Human Resources department of 9T Labs, Technoparkstrasse 1, 8005 Z{\"u}rich:
+\\
+\\
+I'm writing you to apply for the position of Composite Process Engineers, or a similar career path within your company. I have followed your product with great interest, and I believe that my 5 years of graduate study experience complement your company extremely well. I am well versed in the fields of polymer based Additive Manufacturing technologies, composite theory, and failure criteria, all areas of engineering that form cornerstones of the technological venture your company is pursuing. I believe that my set of skills would be beneficial in aiding your company supply end-user grade parts to your customers. 
+
+During my previous position as teaching and research assistant at the Polymer Engineering Center, my organizational and communicational skills, as well as my eagerness to learn quickly proved to be valuable assets to Prof. Tim Osswald, co-director of the institute. My efforts directly resulted in changes to the contents of the departmental Additive Manufacturing class; various publications in journals, such as the Journal of Additive Manufacturing; technical presentations at world-renowned conferences of the likes of AMUG, and RAPID+TCT; and the generation of active funds for the institution through participation in multi-departmental grants and research ventures.
+
+I believe the capabilities of integrating continuous fiber reinforcement into 3D printed parts can be game changing! This technological moat will surely guarantee the success of 9T Labs and I would love to have the opportunity to contribute to your team. If my profile interests you, it would be a privilege to discuss the details of the position whenever it is convenient for you. Thank you for your time, and I look forward to hearing from you.
+\\
+\\
+Sincerely,
+\\
+\\
+Gerardo A. Mazzei Capote
+
+
+
+\end{document}
