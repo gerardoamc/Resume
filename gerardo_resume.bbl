@@ -17,6 +17,82 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{Pfeifer2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PT}{%
+         family={Pfeifer},
+         familyi={P\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=KC}{%
+         family={Koch},
+         familyi={K\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=VL}{%
+         family={{Van Hulle}},
+         familyi={V\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=CGAM}{%
+         family={Capote},
+         familyi={C\bibinitperiod},
+         given={G\bibnamedelima A\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Rudolph},
+         familyi={R\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+    }
+    \keyw{3D printers,Additive manufacturing process,Bead
+  structures,Computerized tomography,Effective
+  tool,Elastomers,Extrusion,Extrusion rates,Extrusion temperatures,Fused
+  deposition modeling,Manufacture,Microcomputed tomography,Part
+  strength,Plastic products,Printing}
+    \strng{namehash}{PT+1}
+    \strng{fullhash}{PTKCVLCGAMRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    One of the most common Additive Manufacturing (AM) technologies is Fused
+  Filament Fabrication (FFF), more commonly known by the trademarked name
+  "Fused Deposition Modeling™" (FDM™). As FFF continues to gain popularity
+  as a method of manufacturing, an understanding of all factors involved in the
+  FFF process becomes essential. This study is an attempt to understand four
+  primary printing parameters and the effects they have on part quality,
+  solidity, and strength. These printing parameters are extrusion rate, nozzle
+  travel speed, layer height, and path width. A recommendation for the
+  determination of optimal extrusion temperature and feed rate was found. A
+  theoretical relationship between the four print parameterswas developed. The
+  resulting solidity was found to vary throughout a printed part, which has
+  effects on the predictability of part strength. Micro computed tomography was
+  proven valuable in this analysis as well as being an effective tool for
+  investigating the bead structure.%
+    }
+    \field{isbn}{9780692719619 (ISBN)}
+    \field{pages}{22\bibrangedash 26}
+    \field{title}{{Optimization of the FDM™ additive manufacturing process}}
+    \verb{url}
+    \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85010644519{\&}pa
+    \verb rtnerID=40{\&}md5=1f4521e160fe433ad37ef9bb587ee72e
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/gerardoamc/AppData/Local/Mendeley Ltd./Mendeley
+    \verb  Desktop/Downloaded/Pfeifer et al. - 2016 - Optimization of the FDM�
+    \verb � additive manufacturing process.pdf:pdf
+    \endverb
+    \field{journaltitle}{74th Annual Technical Conference and Exhibition of the
+  Society of Plastics Engineers, Indianapolis 2016}
+    \field{year}{2016}
+  \endentry
+
   \entry{MazzeiCapote2017}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=MGA}{%
@@ -143,6 +219,85 @@
     \verb{url}
     \verb https://doi.org/10.1016/j.addma.2019.05.005
     \endverb
+    \field{volume}{28}
+    \field{journaltitle}{Additive Manufacturing}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Colon2019}{article}{}
+    \name{author}{7}{}{%
+      {{hash=CJ}{%
+         family={{Col{\'{o}}n Quintana}},
+         familyi={C\bibinitperiod},
+         given={J.L.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Redmann},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={G.A.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PIA}{%
+         family={P{\'{e}}rez-Irizarry},
+         familyi={P\bibinithyphendelim I\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bechara},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OT}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={T.A.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lakes},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{DMA,FFF,Loss tangent,Ultrasonic,Viscoelastic}
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJRAMGPIABAOTLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {\textcopyright} 2019 Elsevier B.V. Parts made by fused filament
+  fabrication differ in their mechanical properties from the parent material.
+  To investigate the effect of the manufacturing process on the mechanical
+  properties of 3D-printed parts, a series of experiments including Dynamic
+  Mechanical Analysis (DMA) and ultrasonic wave propagation were conducted. For
+  this purpose, printed parts were made from custom ABS filament and were
+  printed using a rectangular bead shape to minimize porosity. The main
+  properties investigated included the elastic, loss and storage moduli, and
+  the material loss tangent (tan $\delta$). Results indicate that the elastic
+  modulus of the printed material was somewhat lower than that of the parent
+  material, about 2 GPa for frequencies 0.1 Hz–100 Hz. Furthermore, tan
+  $\delta$ was largest for the parent material at about 0.03 compared with
+  0.01–0.02 for the printed material. Ultrasonic longitudinal wave
+  measurements at 1 MHz on printed specimens with bead angles of 0°, 45° and
+  90°, revealed minimal anisotropy and, consistent with DMA results, tan
+  $\delta$ was also largest for the parent material.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.addma.2019.06.003
+    \endverb
+    \field{issn}{22148604}
+    \field{title}{{Viscoelastic properties of fused filament fabrication
+  parts}}
     \field{volume}{28}
     \field{journaltitle}{Additive Manufacturing}
     \field{year}{2019}

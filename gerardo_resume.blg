@@ -19,49 +19,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: gerardo_resume-blx.bib
 Database file #2: BibTex/mypapers.bib
-Warning--I didn't find a database entry for "MazzeiCapote2018"
 Biblatex version: 3.13
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 4 entries,
+You've used 6 entries,
             6365 wiz_defined-function locations,
-            1228 strings with 13711 characters,
-and the built_in function-call counts, 29182 in all, are:
-= -- 2281
-> -- 477
-< -- 95
-+ -- 692
-- -- 208
-* -- 2345
-:= -- 3494
+            1245 strings with 16966 characters,
+and the built_in function-call counts, 50650 in all, are:
+= -- 3974
+> -- 789
+< -- 159
++ -- 1329
+- -- 376
+* -- 4139
+:= -- 6154
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 40
+call.type$ -- 6
+change.case$ -- 54
 chr.to.int$ -- 44
-cite$ -- 6
-duplicate$ -- 2447
-empty$ -- 2605
-format.name$ -- 259
-if$ -- 5985
+cite$ -- 10
+duplicate$ -- 4673
+empty$ -- 4375
+format.name$ -- 487
+if$ -- 10174
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 13
 missing$ -- 0
-newline$ -- 156
-num.names$ -- 140
-pop$ -- 1142
+newline$ -- 276
+num.names$ -- 216
+pop$ -- 1947
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 107
 quote$ -- 0
-skip$ -- 659
+skip$ -- 1044
 stack$ -- 0
-substring$ -- 4678
-swap$ -- 537
-text.length$ -- 108
-text.prefix$ -- 0
+substring$ -- 7896
+swap$ -- 957
+text.length$ -- 188
+text.prefix$ -- 4
 top$ -- 1
-type$ -- 124
+type$ -- 192
 warning$ -- 0
-while$ -- 425
+while$ -- 794
 width$ -- 0
-write$ -- 153
-(There was 1 warning)
+write$ -- 271
