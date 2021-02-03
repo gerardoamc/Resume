@@ -359,5 +359,72 @@
     \field{journaltitle}{Journal of Composites Science}
     \field{year}{2019}
   \endentry
+
+  \entry{Osswald2020a}{article}{}
+    \name{author}{6}{}{%
+      {{hash=OPV}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={P.\bibnamedelima V.},
+         giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=OP}{%
+         family={Obst},
+         familyi={O\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Friedrich},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rietzel},
+         familyi={R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Witt},
+         familyi={W\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{Failure criterion,PA12,Additive manufacturing,Multi-jet fusion
+  (MJF),Selective laser sintering (SLS)}
+    \strng{namehash}{OPV+1}
+    \strng{fullhash}{OPVOPMGAFMRDWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.addma.2020.101668
+    \endverb
+    \field{issn}{2214-8604}
+    \field{number}{July}
+    \field{pages}{101668}
+    \field{title}{{Failure Criterion for PA 12 Multi-Jet Fusion Additive
+  Manufactured Parts}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.addma.2020.101668
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/gerardoamc/OneDrive - UW-Madison/Research/MJF F
+    \verb C paper/1-s2.0-S221486042031040X-main.pdf:pdf
+    \endverb
+    \field{journaltitle}{Additive Manufacturing}
+    \field{year}{2020}
+  \endentry
 \enddatalist
 \endinput
