@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.6)  3 FEB 2021 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.6)  18 FEB 2021 11:19
 entering extended mode
 **./gerardo_resume.tex
 (gerardo_resume.tex
@@ -684,7 +684,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
 Here is how much of TeX's memory you used:
  13292 strings out of 480930
  236092 string characters out of 2897417
- 703030 words of memory out of 3000000
+ 703990 words of memory out of 3000000
  28993 multiletter control sequences out of 15000+200000
  560023 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -699,7 +699,7 @@ gerardoamc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/tex-gyre/qplb.p
 fb><C:/Users/gerardoamc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/te
 x-gyre/qplr.pfb><C:/Users/gerardoamc/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/tex-gyre/qplri.pfb>
-Output written on gerardo_resume.pdf (2 pages, 204043 bytes).
+Output written on gerardo_resume.pdf (2 pages, 204021 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
