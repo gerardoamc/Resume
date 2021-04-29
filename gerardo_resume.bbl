@@ -37,12 +37,11 @@
          given={L},
          giveni={L},
       }}%
-      {{hash=CGAM}{%
-         family={Capote},
-         familyi={C\bibinitperiod},
-         given={G\bibnamedelima A\bibnamedelima M},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=RN}{%
          family={Rudolph},
@@ -57,7 +56,7 @@
   deposition modeling,Manufacture,Microcomputed tomography,Part
   strength,Plastic products,Printing}
     \strng{namehash}{PT+1}
-    \strng{fullhash}{PTKCVLCGAMRN1}
+    \strng{fullhash}{PTKCVLMGARN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
@@ -149,6 +148,12 @@
     \list{location}{1}{%
       {Austin, TX}%
     }
+    \verb{file}
+    \verb :C$\backslash$:/Users/gerardoamc/AppData/Local/Mendeley Ltd./Mendeley
+    \verb  Desktop/Downloaded/Mazzei Capote et al. - 2017 - Towards a Robust Pr
+    \verb oduction of FFF End-User Parts with Improved Tensile Properties(2).pd
+    \verb f:pdf
+    \endverb
     \field{year}{2017}
   \endentry
 
@@ -356,6 +361,12 @@
     \field{title}{{Validating a Failure Surface Developed for ABS Fused
   Filament Fabrication Parts through Complex Loading Experiments}}
     \field{volume}{3}
+    \verb{file}
+    \verb :C$\backslash$:/Users/gerardoamc/AppData/Local/Mendeley Ltd./Mendeley
+    \verb  Desktop/Downloaded/Mazzei Capote, Redmann, Osswald - 2019 - Validati
+    \verb ng a Failure Surface Developed for ABS Fused Filament Fabrication Par
+    \verb ts through Complex.pdf:pdf
+    \endverb
     \field{journaltitle}{Journal of Composites Science}
     \field{year}{2019}
   \endentry
@@ -402,8 +413,7 @@
     \list{publisher}{1}{%
       {Elsevier B.V.}%
     }
-    \keyw{Failure criterion,PA12,Additive manufacturing,Multi-jet fusion
-  (MJF),Selective laser sintering (SLS)}
+    \keyw{Additive manufacturing,Failure criterion,Mult,PA12}
     \strng{namehash}{OPV+1}
     \strng{fullhash}{OPVOPMGAFMRDWG1}
     \field{labelnamesource}{author}
@@ -413,7 +423,6 @@
     \endverb
     \field{issn}{2214-8604}
     \field{number}{July}
-    \field{pages}{101668}
     \field{title}{{Failure Criterion for PA 12 Multi-Jet Fusion Additive
   Manufactured Parts}}
     \verb{url}
@@ -425,6 +434,55 @@
     \endverb
     \field{journaltitle}{Additive Manufacturing}
     \field{year}{2020}
+  \endentry
+
+  \entry{ColonQuintana2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CJL}{%
+         family={{Colon Quintana}},
+         familyi={C\bibinitperiod},
+         given={Jose\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Teuwsen},
+         familyi={T\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OTA}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={Tim\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{composites,failure,fibers,mechanical properties,strength}
+    \strng{namehash}{CJL+1}
+    \strng{fullhash}{CJLTJMGAOTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/pc.26084
+    \endverb
+    \field{number}{November 2020}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{{Application of the stress interaction failure criterion in
+  platelet composite compression molded parts}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/gerardoamc/AppData/Local/Mendeley Ltd./Mendeley
+    \verb  Desktop/Downloaded/Colon Quintana et al. - 2021 - Application of the
+    \verb  stress interaction failure criterion in platelet composite compressi
+    \verb on molded parts.pdf:pdf
+    \endverb
+    \field{journaltitle}{Polymer Composites}
+    \field{year}{2021}
   \endentry
 \enddatalist
 \endinput
