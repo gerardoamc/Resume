@@ -484,5 +484,52 @@
     \field{journaltitle}{Polymer Composites}
     \field{year}{2021}
   \endentry
+
+  \entry{MazzeiCapote2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MGA}{%
+         family={{Mazzei Capote}},
+         familyi={M\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OPEV}{%
+         family={Oehlmann},
+         familyi={O\bibinitperiod},
+         given={Paul E.\bibnamedelima V.},
+         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+      {{hash=BJC}{%
+         family={{Blanco Campos}},
+         familyi={B\bibinitperiod},
+         given={Juan\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HGR}{%
+         family={Hegge},
+         familyi={H\bibinitperiod},
+         given={Graydon\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=OTA}{%
+         family={Osswald},
+         familyi={O\bibinitperiod},
+         given={Tim\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGA+1}
+    \strng{fullhash}{MGAOPEVBJCHGROTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Trends in Force and Print Speed in Material Extrusion}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/gerardoamc/OneDrive - UW-Madison/Research/Force
+    \verb  Measurement Paper/Force Measurements{\_}v4.docx:docx
+    \endverb
+    \field{journaltitle}{Additive Manufacturing}
+    \field{year}{2021}
+  \endentry
 \enddatalist
 \endinput
