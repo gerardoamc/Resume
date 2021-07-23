@@ -523,10 +523,19 @@
     \strng{fullhash}{MGAOPEVBJCHGROTA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.addma.2021.102141
+    \endverb
     \field{title}{{Trends in Force and Print Speed in Material Extrusion}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2214860421003055
+    \endverb
+    \field{volume}{46}
     \verb{file}
     \verb :C$\backslash$:/Users/gerardoamc/OneDrive - UW-Madison/Research/Force
-    \verb  Measurement Paper/Force Measurements{\_}v4.docx:docx
+    \verb  Measurement Paper/Force Measurements{\_}v4.docx:docx;:C$\backslash$:
+    \verb /Users/gerardoamc/OneDrive - UW-Madison/Research/Force Measurement Pa
+    \verb per/Published version/1-s2.0-S2214860421003055-main.pdf:pdf
     \endverb
     \field{journaltitle}{Additive Manufacturing}
     \field{year}{2021}
